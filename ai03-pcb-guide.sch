@@ -569,4 +569,17 @@ F 3 "" H 6525 2825 60  0001 C CNN
 	1    7150 2850
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 669FE95A
+P 8250 1550
+F 0 "#PWR?" H 8250 1400 50  0001 C CNN
+F 1 "+5V" H 8265 1723 50  0000 C CNN
+F 2 "" H 8250 1550 50  0001 C CNN
+F 3 "" H 8250 1550 50  0001 C CNN
+	1    8250 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 1550 8250 1550
 $EndSCHEMATC
